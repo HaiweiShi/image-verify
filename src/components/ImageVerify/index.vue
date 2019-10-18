@@ -123,8 +123,10 @@ export default {
       if (time) this.$emit('change', v, time)
     },
     areaTouchstart (e) {
-      var touch = e.targetTouches[0]
-      this.dragStart(touch)
+      if (!this.value) {
+        var touch = e.targetTouches[0]
+        this.dragStart(touch)
+      }
     },
     areaMousedown (e) {
       if (!this.value) {
