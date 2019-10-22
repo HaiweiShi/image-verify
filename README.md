@@ -39,7 +39,7 @@
   | input   | 弹出验证框，float为true时有效     | function(valid)     | 
   | change  | 拖动方块后触发，返回验证结果和用时 | function(valid,time) | 
 ## 示例
-http://imageverify.shihaiwei.top/dist/index.html
+http://imageverify.shihaiwei.top
 
 ## Build Setup
 
